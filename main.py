@@ -10,7 +10,7 @@ def myPrompt(question):
 # Providing API Key Credentials
 class CoHere:
     def __init__(self, api_key):
-        api_key = config('wHT0ON35UWNgJmPmNEeAv89vMzfes1Ligv7hoohK')
+        api_key = config('Your api key')
         self.co = cohere.Client(api_key)
 
 
